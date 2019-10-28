@@ -1,0 +1,30 @@
+{
+  "name": "weatherapp",
+  "version": "1.0.0",
+  "description": "Weather application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AMMesic/weatherApp.git"
+  },
+  "author": "AM",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AMMesic/weatherApp/issues"
+  },
+  "homepage": "https://github.com/AMMesic/weatherApp#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "create-react-app": "^3.2.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "node-fetch": "^2.6.0",
+    "nodemon": "^1.19.4"
+  }
+}
