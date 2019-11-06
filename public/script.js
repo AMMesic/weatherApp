@@ -1,5 +1,0 @@
-const show = document.querySelector('#weather')
-console.log(show)
-fetch('/weather')
-.then(res => res.json())
-.then(data => show.textContent = data.weather)
