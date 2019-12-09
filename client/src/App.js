@@ -5,7 +5,7 @@ import './App.css';
 function App() {
   const [weather, setWeather] = useState([]);
   const [search, setSearch] = useState('');
-  const [query, setQuery] = useState('stockholm');
+  const [query, setQuery] = useState('Stockholm');
 
   const fetchData = async () => {
     const res = await fetch(`http://localhost:5000/weather/${query}`);
